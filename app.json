@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Quizizz",
+    "slug": "Quizizz",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.karen555.Quizizz"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "localizedResources": {
+      "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "356451b3-21c9-4fdd-92ca-31d10fd0651c"
+      }
+    }
+  }
+}
